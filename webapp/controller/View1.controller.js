@@ -30,7 +30,9 @@ sap.ui.define([
           this.getView().byId(id).setType("Password");
           this.getView().byId(id)._getValueHelpIcon().setSrc("sap-icon://hide");
         }
-
+      },
+      handlelink: function (oEvent) {
+        window.open("https://www.cricbuzz.com/");
       }
     });
   });
