@@ -1,0 +1,40 @@
+/* Enter your custom styles here */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram {
+  display: flex;
+  justify-content: center;
+  border: #ccc;
+  border-width: 2px;
+}
+.instagram-text {
+  font-family: "Proxima Nova";
+  color: #000;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  line-height: 1.5;
+  width: 175px;
+  height: 51px;
+  font-size: 40px;
+  background: #ffffff08;
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: skyblue;
+}
+
+.sapMPanelBGTranslucent {
+  background-color: #fff;
+  border: #ccc;
+  border-style: solid;
+}
+
